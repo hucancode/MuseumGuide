@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Tyrannosaurus Rex",
+        "document": "trex.md"
+    },
+    {
+        "title": "Spinosaurus",
+        "document": "spinosaurus.md"
+    },
+    {
+        "title": "Stegosaurus",
+        "document": "stegosaurus.md"
+    },
+    {
+        "title": "Megalosaurus",
+        "document": "megalosaurus.md"
+    },
+    {
+        "title": "Triceratops",
+        "document": "triceratops.md"
+    }
+]
