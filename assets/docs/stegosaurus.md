@@ -1,6 +1,6 @@
-# Stegosaurus
-
 ![](resource:assets/images/stegosaurus.jpg)
+
+# Intro
 
 The stegosaurus is a much older dinosaur than the Tyrannosaurus Rex. So you can get an idea, the T-Rex lived closer to the current day, than to the days of the stegosaur — so those drawings of T-Rex fighting a stegosaur are rubbish and have no geological truth to them. But if through some miracle you happened to see a stegosaur from some 150 million years ago, it would be a sight to behold.
 
