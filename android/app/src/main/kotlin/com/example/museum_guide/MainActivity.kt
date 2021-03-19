@@ -1,4 +1,4 @@
-package com.example.museum_guide
+package hucancode.museumguide
 
 import io.flutter.embedding.android.FlutterActivity
 
