@@ -14,19 +14,19 @@ class AppNavigator extends StatelessWidget {
   static const opacityCurve =
       const Interval(0.0, 0.75, curve: Curves.fastOutSlowIn);
   
-  PageRoute<void> routeToDetail(RouteSettings settings)
+  Route<void> routeToDetail(RouteSettings settings)
   {
     AgendaItem item = settings.arguments as AgendaItem;
     Widget widget = DetailPage(item: item);
     return MaterialPageRoute<void>(builder: (context) => widget);
   }
 
-  PageRoute<void> routeToIntro(RouteSettings settings) {
+  Route<void> routeToIntro(RouteSettings settings) {
     Widget widget = IntroPage();
     return MaterialPageRoute<void>(builder: (context) => widget);
   }
 
-  PageRoute<void> routeToMenu(RouteSettings settings) {
+  Route<void> routeToMenu(RouteSettings settings) {
     Widget widget = MenuPage();
     return MaterialPageRoute<void>(builder: (context) => widget);
   }
