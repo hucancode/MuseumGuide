@@ -19,7 +19,7 @@ class DetailState extends State<DetailPage> {
       appBar: AppBar(
         title: Text(item.title),
       ),
-      body: buildAgendaList(),
+      body: buildMDViewer(),
     );
   }
 
@@ -29,7 +29,7 @@ class DetailState extends State<DetailPage> {
     return response;
   }
 
-  Widget buildAgendaList() {
+  Widget buildMDViewer() {
     return FutureBuilder(
       future: readMD(context),
       builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
